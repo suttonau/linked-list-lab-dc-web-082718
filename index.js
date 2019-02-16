@@ -2,14 +2,14 @@
 // A linked list is a linear collection of data elements, whose order is not given by their physical placement in memory.
 // Instead, each element points to the next.
 // It is a data structure consisting of a collection of nodes which together represent a sequence.
-//
+
 // The example in this lab is Deli Cashiers-
-// There are a list of cashiers who have to tell each other when someone from corporate is in the store to be on your best behavior.
-// This is the plan they currently have: Alexandra is the greeter so she is the first person to spot the corporate officer,
+// The list of cashiers have to tell each other when the boss is in the store and to be on their best behavior.
+// This is the plan they currently have: Alexandra is the host so she is the first person to spot the corporate officer,
 // and then if she is not available then Kirstin will spot them, followed by Juliet, then Timmy and finally Jacob in that sequence.
-//
-// Alexandra -> Kirstin -> Juliet -> Timmy -> Jacob
-//
+// EXAMPLE: Alexandra -> Kirstin -> Juliet -> Timmy -> Jacob
+
+// ** Structure **
 // ** We would like to structure each node as a javascript object, so each node will look like the following:
 //   `{name: 'Alexandra', next: 'addressOfNextPerson'}`
 //
@@ -19,11 +19,11 @@
 //    For now, we'll just have the keys be a random string of digits.
 //    The key next of each node points to the next node's address.
 //
-//   let collection = {
+//i.e.  let collection = {
 //       rnadnm: {name: 'ferris', next: 'masjdrandm'},
 //       masjdrandm: {name: 'sloane', next: 'ntrandm'},
 //       ntrandm: {name: 'cameron', next: null},
-//   }
+//      }
 
 //Takes in a node and returns the individual's name
 getName = node => {
